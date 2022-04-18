@@ -24,7 +24,7 @@ iter3++;
 while(iter3 != E.end()){
 if(C.getWeight(*iter2,*iter3) > large){
     large = C.getWeight(*iter2,*iter3);
-    lorg = *iter2;
+    lorg = *iter3;
 }
 
 iter2++;
